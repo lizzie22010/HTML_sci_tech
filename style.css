@@ -65,16 +65,21 @@
 
   .two-column{
     display:grid;
-    grid-template-columns: 3fr,1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 100px;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 50px;
   }
 
-  .card{
+  .main-card{
     background-color: aqua;
     width: 20%;
+  }
+  
+  .secondary-card{
+    background-color: darkgreen;
+    width: 200px;
   }
 
   .card-text{
