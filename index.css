@@ -14,11 +14,11 @@
     font-weight: bold;
     text-align: left;
     position: absolute;
-    top: 110px;
-    left: 440px;
+    top: 140px;
+    left: 490px;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 100px;
+    font-size: 70px;
     max-width: 800px;
     text-shadow: -2px 2px rgb(0,79,66);
 }
@@ -28,9 +28,9 @@
     text-align: left;
     position: absolute;
     top: 260px;
-    left: 50px;
+    left: 5%;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: -1px 1px rgb(0,79,66);
 }
 
@@ -53,7 +53,7 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ddd;                         /* add aimation here/*
     color: black;
   }
   
