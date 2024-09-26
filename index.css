@@ -50,18 +50,33 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+.topnav a.active {
+  background-color: rgb(0, 78, 66);
+  color: white;
+  animation-name: none;                                 /* fix here /*
+ }
+
+  /* The animation code */
+@keyframes example {
+  from {background-color: rgb(255, 255, 255);}
+  to {background-color: rgba(0, 77, 65, 0.349);}
+}
+
+.topnav a:hover {
+  background-color: rgba(0, 77, 65, 0.349);
+  animation-name: example;
+  animation-duration: .3s;
+}
   
-  /* Change the color of links on hover */
+  /* Change the color of links on hover 
   .topnav a:hover {
     background-color: #ddd;                         /* add aimation here/*
     color: black;
   }
-  
+  */
   /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: rgb(0, 78, 66);
-    color: white;
-  }
+  
 
   .two-column{
     display:grid;
