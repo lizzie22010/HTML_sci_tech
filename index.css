@@ -51,11 +51,13 @@
     font-size: 17px;
   }
 
+/* Style the active tab in the navigation bar */
 .topnav a.active {
   background-color: rgb(0, 78, 66);
   color: white;
  }
 
+/* Animation for the tab in the navigation bar that is being hovered */
 @keyframes hover_nav {
   from {background-color: rgb(255, 255, 255);}
   to {background-color: rgba(0, 77, 65, 0.349);}
@@ -64,6 +66,17 @@
 .topnav a:hover {
   background-color: rgba(0, 77, 65, 0.349);
   animation-name: hover_nav;
+  animation-duration: .4s;
+}
+
+@keyframes hover_activenav {
+  from {background-color: rgb(0, 78, 66);}
+  to {background-color: rgba(0, 77, 65, 0.349);}
+}
+
+.topnav a.active:hover {
+  background-color: rgba(0, 77, 65, 0.349);
+  animation-name: hover_activenav;
   animation-duration: .4s;
 }
   
