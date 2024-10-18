@@ -2,7 +2,7 @@
 
 .hero-image{
     background-image: url("./images/plants_hero_image.jpg");
-    height: 400px;
+    height: 320px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,8 +14,8 @@
     font-weight: bold;
     text-align: left;
     position: absolute;
-    top: 140px;
-    left: 490px;
+    top: 80px;
+    left: 24%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 70px;
@@ -27,8 +27,8 @@
    font-family: "Public Sans";
     text-align: left;
     position: absolute;
-    top: 260px;
-    left: 5%;
+    top: 190px;
+    left: 3%;
     color: white;
     font-size: 40px;
     text-shadow: -1px 1px rgb(0,79,66);
@@ -49,6 +49,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: background-color .3s;
   }
 
 /* Style the active tab in the navigation bar */
@@ -57,37 +58,9 @@
   color: white;
  }
 
-/* Animation for the tab in the navigation bar that is being hovered */
-@keyframes hover_nav {
-  from {background-color: rgb(255, 255, 255);}
-  to {background-color: rgba(0, 77, 65, 0.349);}
-}
-
 .topnav a:hover {
   background-color: rgba(0, 77, 65, 0.349);
-  animation-name: hover_nav;
-  animation-duration: .4s;
 }
-
-@keyframes hover_activenav {
-  from {background-color: rgb(0, 78, 66);}
-  to {background-color: rgba(0, 77, 65, 0.349);}
-}
-
-.topnav a.active:hover {
-  background-color: rgba(0, 77, 65, 0.349);
-  animation-name: hover_activenav;
-  animation-duration: .4s;
-}
-  
-  /* Change the color of links on hover 
-  .topnav a:hover {
-    background-color: #ddd;                         /* add aimation here
-    color: black;
-  }
-  */
-  /* Add a color to the active/current link */
-  
 
   .two-column{
     display:grid;
