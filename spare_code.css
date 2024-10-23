@@ -62,9 +62,9 @@
   background-color: rgba(0, 77, 65, 0.349);
 }
 
-  .four-column{
+  .two-column{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1ft;
+    grid-template-columns: 3fr 1fr;
     gap: 80px;
     margin-left: 80px;
     margin-right: 80px;
@@ -72,7 +72,7 @@
     margin-bottom: 50px;
   }
 
-  /* .main-card{
+  .main-card{
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: white;
@@ -95,7 +95,7 @@
     border: 5px dashed rgb(0,79,66);
     width: 100%;
     margin-right: 50px;
-  } */
+  }
 
   .card-text{
     color: whitesmoke;
