@@ -125,6 +125,19 @@
   padding-right: 240px;
   padding-top: 0px;
   margin-bottom: 100px;
+  color: #000000;
+}
+
+/* styling the ptext after its visited */
+.ptext a, .ptext a:link, .ptext a:visited {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  transition: color .25s;
+}
+
+.ptext a:hover {
+  color: grey;
 }
 
 /* project 1 */
@@ -135,6 +148,7 @@
 .p1text {
   width: 280px;
 }
+
 
 /* project 2 */
 .project2img{
