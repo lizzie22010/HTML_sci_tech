@@ -74,6 +74,8 @@
   font-size: 30px;
   padding-left: 250px;
   padding-top: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* styling "See More" link */
@@ -86,7 +88,8 @@
   vertical-align: text-bottom;
   padding-right: 250px;
   padding-top: 70px;
-  margin-top: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Here I am trying to change the color of the "See More" link */
@@ -94,7 +97,7 @@
   text-decoration: none;
   color: #000000;
   background-color: #ffffff;
-  transition: color .2s;
+  transition: color .25s;
 }
 
 .four-column-title a:hover {
@@ -108,24 +111,54 @@
   gap: 68px;
   padding-left: 250px;
   padding-right: 250px;
-  padding-top: 40px;
-  margin-bottom: 50px;
+  padding-top: 30px;
+  margin-bottom: 0px;
 }
 
+/* project images and text*/
+.ptext {
+  font-family: "Public Sans";
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 90px;
+  padding-left: 260px;
+  padding-right: 240px;
+  padding-top: 0px;
+  margin-bottom: 100px;
+}
+
+/* project 1 */
 .project1img{
   width: 300px;
 }
 
+.p1text {
+  width: 280px;
+}
+
+/* project 2 */
 .project2img{
   width: 300px;
 }
 
+.p2text {
+  width: 280px;
+}
+
+/* project 3 */
 .project3img{
   width: 300px;
 }
 
+.p3text {
+  width: 280px;
+}
+
+/* project 4 */
 .project4img{
   width: 300px;
 }
 
-  
+.p4text {
+  width: 280px;
+}
