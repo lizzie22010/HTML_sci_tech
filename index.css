@@ -73,8 +73,8 @@
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 230px;
+  padding-right: 230px;
   /* margin-left: 80px;
   margin-right: 100px; */
   padding-top: 40px;
@@ -82,19 +82,19 @@
 }
 
 .project1img{
-  width: 350px;
+  width: 300px;
 }
 
 .project2img{
-  width: 350px;
+  width: 300px;
 }
 
 .project3img{
-  width: 350px;
+  width: 300px;
 }
 
 .project4img{
-  width: 350px;
+  width: 300px;
 }
 
 /* .main-card{
