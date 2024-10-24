@@ -61,3 +61,12 @@
 .topnav a:hover {
   background-color: rgba(0, 77, 65, 0.349);
 }
+
+.two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left:250px ;
+  padding-right: 250px;
+  padding-top: 125px;
+  gap: 125px;
+}
