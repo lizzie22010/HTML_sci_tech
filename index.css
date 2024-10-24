@@ -64,12 +64,28 @@
 
   .four-column{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1ft;
-    gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 40px;
     margin-bottom: 50px;
+  }
+
+  .project1img{
+    width: 200px;
+  }
+
+  .project2img{
+    width: 200px;
+  }
+
+  .project3img{
+    width: 200px;
+  }
+
+  .project4img{
+    width: 200px;
   }
 
   /* .main-card{
