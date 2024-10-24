@@ -34,23 +34,23 @@
     text-shadow: -1px 1px rgb(0,79,66);
 }
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    font-family: "Public Sans";
-    float: left;
-    color: rgb(0, 78, 66);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: background-color .3s;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: "Public Sans";
+  float: left;
+  color: rgb(0, 78, 66);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color .3s;
+}
 
 /* Style the active tab in the navigation bar */
 .topnav a.active {
@@ -62,28 +62,46 @@
   background-color: rgba(0, 77, 65, 0.349);
 }
 
-/* This is the title which is two columns above the four-column */
+/* This is the title that is two columns above the four-column */
 .four-column-title{
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: "Public Sans";
 }
 
+/* Styling "Featured Projects" */
 .four-column-title h1{
   font-size: 25px;
   padding-left: 250px;
   padding-top: 70px;
 }
 
+/* styling "See More" link */
 .four-column-title h2{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  /* position */
   text-align: right;
   vertical-align: text-bottom;
-  font-size: 20px;
   padding-right: 250px;
   padding-top: 70px;
   margin-top: auto;
 }
 
+/* Here I am trying to change the color of the "See More" link */
+.four-column-title a, .four-column-title a:link, .four-column-title a:visited {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  transition: color .2s;
+}
+
+.four-column-title a:hover {
+  color: rgb(0,171,142);
+}
+
+/* This aligns the four project images */
 .four-column{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
