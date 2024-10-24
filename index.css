@@ -62,56 +62,62 @@
   background-color: rgba(0, 77, 65, 0.349);
 }
 
-  .four-column{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-  }
+.four-column-title{
+  font-family: "Public Sans";
+}
 
-  .project1img{
-    width: 200px;
-  }
+.four-column{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  /* margin-left: 80px;
+  margin-right: 100px; */
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
 
-  .project2img{
-    width: 200px;
-  }
+.project1img{
+  width: 350px;
+}
 
-  .project3img{
-    width: 200px;
-  }
+.project2img{
+  width: 350px;
+}
 
-  .project4img{
-    width: 200px;
-  }
+.project3img{
+  width: 350px;
+}
 
-  /* .main-card{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: white;
-    width: 100%;
-  }
+.project4img{
+  width: 350px;
+}
 
-  .main-card-image{
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-  }
+/* .main-card{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: white;
+  width: 100%;
+}
 
-  .main-card-text{
-    font-size: 20px;
-    margin: 60px;
-  }
-  
-  .secondary-card{
-    background-color: darkgreen;
-    border: 5px dashed rgb(0,79,66);
-    width: 100%;
-    margin-right: 50px;
-  } */
+.main-card-image{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.main-card-text{
+  font-size: 20px;
+  margin: 60px;
+}
+
+.secondary-card{
+  background-color: darkgreen;
+  border: 5px dashed rgb(0,79,66);
+  width: 100%;
+  margin-right: 50px;
+} */
 
   .card-text{
     color: whitesmoke;
