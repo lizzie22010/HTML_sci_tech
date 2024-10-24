@@ -176,3 +176,29 @@
 .p4text {
   width: 280px;
 }
+
+/* here is the styling for p1, p2, p3, p4 */
+.main-card-image {
+  width: 280px;
+  padding-right: 84k0px;
+  padding-left: 800px;
+  padding-top: 20px;
+}
+
+.one-column h1 {
+  font-family: "Public Sans";
+  font-size: 30px;
+  padding-left: 840px;
+  padding-right: 840px;
+  padding-top: 50px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.pwords {
+  padding-top: 50px;
+  padding-left: 540px;
+  width: 800px;
+  font-family: "Public Sans";
+  text-align: center;
+}
