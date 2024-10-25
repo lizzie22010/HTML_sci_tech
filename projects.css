@@ -67,11 +67,11 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 0px;
-  width: 80%;
+  width: 70%;
   margin: auto;
   margin-top: 60px;
   padding-left: 250px;
-  padding-right: 250px;
+  padding-right: 200px;
 }
 
 .two-column h1 {
@@ -86,4 +86,20 @@
 img{
   width: 250px;
   border-radius: 5px;
+}
+
+/* styling the ptext after its visited */
+.two-column a, .two-column a:link, .two-column a:visited {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  transition: color .25s;
+}
+
+.two-column a:hover {
+  color: grey;
+}
+
+body{
+  padding-bottom: 80px;
 }
